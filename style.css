@@ -71,7 +71,7 @@ body{
     background-color: #7395ae;
     color: #34343f;
     margin: 0px;
-    padding-top: 1.5em;
+    padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
     padding-bottom: 1em;
@@ -115,13 +115,17 @@ body{
     padding-left: .5em;
 }
 
+#reflection {
+    padding-bottom: 3em;
+}
+
 .wireContainer{
     display: flex;
     flex-direction: row;
 }
 .wireframe{
     max-width:350px;
-    margin-left: 10%;
+    margin-left: 20%;
     border: 10px solid #557a95;
 }
 .prototype{
@@ -136,3 +140,29 @@ body{
     margin-left:1%;
     border: 10px solid #557a95;
 }
+
+ 
+.contact-section {
+    background-color: #557a95;
+    color: #F6F7EB;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  .contact-section p {
+    font-size: 1.1rem;
+  }
+
+  footer {
+    border-top: 5px solid #7395ae;
+    background-color: #557a95;
+    color: #efe6e8;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
