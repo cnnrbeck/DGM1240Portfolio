@@ -76,7 +76,6 @@ body{
     padding-right: 1em;
     padding-bottom: 1em;
     display: flex;
-    justify-content: center;
     text-align: left;
 }
 .standard h2{
@@ -116,9 +115,14 @@ body{
     padding-left: .5em;
 }
 
-
+.wireContainer{
+    display: flex;
+    flex-direction: row;
+}
 .wireframe{
     max-width:350px;
+    margin-left: 10%;
+    border: 10px solid #119Da4;
 }
 .prototype{
     max-width: 80%;
@@ -129,4 +133,6 @@ body{
 }
 .test{
     max-width:900px;
+    margin-left:1%;
+    border: 10px solid #119Da4;
 }
